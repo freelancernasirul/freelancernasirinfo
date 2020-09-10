@@ -28,7 +28,7 @@
 	$success = '';
 	if (!$errormsg){
 		//change recipient email and subject here
-		$to = "admin@yoursite.com";
+		$to = "nasirhossainacs@gmail.com";
 		$subject = "New AboutMe Demo Contact Form Submitted";	
 		
 		//prepare email body
