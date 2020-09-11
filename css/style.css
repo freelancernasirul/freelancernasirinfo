@@ -1,8 +1,8 @@
 /*
 |----------------------------------------------------------------------------
 	AboutMe - Personal Portfolio Resume Template Main CSS
-	Author: MGScoder
-	Author URL: https://themeforest.net/user/mgscoder
+	Author: Freelancer Nasir
+	Author URL: https://freelancernasir.info
 	Version: 2.2
 	Primary color: #ed1858
 |----------------------------------------------------------------------------
@@ -199,7 +199,7 @@ a:focus {
 }
 .menu-bg {
     background-color: #fff;
-    box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
+    box-shadow: 0 2px 10px -1px rgba(112, 122, 126, 0.35);
 }
 a img.logo-color  {
     opacity: 0;
@@ -336,14 +336,14 @@ a img.logo-color  {
     vertical-align: middle;
 }
 .banner-content {
-    margin-top: 80px;
+    margin-top: 50px;
 	max-width: 50%;
 }
 .banner-content h1 {
-    color: #fff;
+    color:#fff;
     font-size: 60px;
 	line-height: 1;
-	margin: 0 0 25px;
+	margin: 20;
     text-transform: capitalize;
 }
 .banner-content h3 {
@@ -354,19 +354,20 @@ a img.logo-color  {
     text-transform: capitalize;
 }
 .banner-content li a {
-    color: #fff;
-    border: none;
+
+    border: round;
+    color: rgb(255, 255, 255);
 }
 
 .banner-content.banner-content-fullwidth {
     max-width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 /* Type */
 .banner-content h1.type-animate a.typewrite{
 	color: #fff;
-	font-size: 48px;
+	font-size: 24px;
 }
 
 /*
@@ -3130,7 +3131,7 @@ aside#sidebar .title-box {
     width: 20%;
 }
 #mc-form .btn:hover {
-    background-color: rgba(4, 185, 98, 0.8);
+    background-color: rgba(226, 3, 96, 0.8);
 }
 #mc-form label {
 	color: #fff;
@@ -3145,7 +3146,7 @@ aside#sidebar .title-box {
     color: #e91313;
 }
 #mc-form .valid {
-    color: #a00058;
+    color: #c0036b;
 }
 
 /*
