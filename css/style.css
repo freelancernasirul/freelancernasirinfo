@@ -75,10 +75,10 @@
 */
 body {
     color: #222;
-	font-family: 'Open Sans', sans-serif;
-	margin: 0 auto;
-	font-size: 16px;
-	line-height: 1.48;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.48;
     height: 100%;
 }
 
@@ -528,8 +528,8 @@ a img.logo-color  {
 |----------------------------------------------------------------------------
 */
 .title-wrap {
-    margin: 0 auto 60px;
-    max-width: 401px;
+    /* margin: 0 auto 60px; */
+    /* max-width: 401px; */
 }
 .section-title-box::before {
     background-color: #ed1858;
@@ -544,7 +544,7 @@ a img.logo-color  {
 }
 .section-title-box {
     border-bottom: 1px solid #ed1858;
-    margin: 0 0 60px;
+    margin: 0 0 10px;
     position: relative;
 }
 .title-wrap .section-title {
@@ -1260,105 +1260,9 @@ a img.logo-color  {
 	10. PRICING / .pricing-table
 |----------------------------------------------------------------------------
 */
-#pricingtable {
-	padding: 70px 0;
+#youtuberecent {
+	padding: 0px 0;
 	background-color: #fff;
-}
-#pricingtable .pricing-plan-table {
-    padding: 30px 0 0;
-}
-#pricingtable .pricing-plan-wrap {
-    background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 0 0 5px 1px rgba(62, 62, 62, 0.5);
-    color: #222;
-	margin: 0 auto 50px;
-    max-width: 360px;
-    min-height: 425px;
-    overflow: hidden;
-    text-align: center;
-	-webkit-transition:all 0.3s ease 0s;
-    -moz-transition:all 0.3s ease 0s;
-    -ms-transition:all 0.3s ease 0s;
-    -o-transition:all 0.3s ease 0s;
-    transition:all 0.3s ease 0s;
-}
-#pricingtable .pricing-plan-wrap:hover {
-    box-shadow: 0 0 10px 1px rgba(62, 62, 62, 0.8);
-}
-#pricingtable .pricing-plan-header {
-	background-color: rgba(62, 62, 62, 0.5);
-	color: #000;
-    height: 165px;
-    margin: 0 0 105px;
-    padding: 30px 30px 0;
-    position: relative;
-}
-#pricingtable .pricing-plan-wrap.active .pricing-plan-header {
-    background-color: #ed1858;
-}
-#pricingtable .pricing-plan-header > h3 {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0 0 30px;
-    text-transform: uppercase;
-}
-#pricingtable .pricing-plan-wrap.active .pricing-plan-header  {
-    color: #fff;
-}
-#pricingtable .pricing-plan-wrap.active .pricing-plan-header > h3  {
-    border-color: #fff;
-}
-#pricingtable .price-holder {
-    background-color: #ed1858;
-    border: 5px solid #fff;
-    border-radius: 50%;
-    bottom: 0;
-    color: #222;
-    height: 150px;
-    left: 50%;
-    margin-bottom: -75px;
-    margin-left: -75px;
-    padding: 30px 0;
-    position: absolute;
-    width: 150px;
-}
-#pricingtable .pricing-plan-wrap:hover .pricing-plan-header, #pricingtable .pricing-plan-wrap:hover .price-holder {
-    background-color: #ed1858;
-    color: #fff;
-}
-#pricingtable .pricing-plan-wrap.active .price-holder {
-    background-color: #ed1858;
-}
-#pricingtable .price-holder p {
-    color: #fff;
-    font-size: 42px;
-    font-weight: bold;
-    margin: -3px 0 0;
-}
-#pricingtable .pricing-plan-wrap .btn-shutter-out-horizontal {
-    margin: 30px 0;
-}
-#pricingtable .pricing-plan-wrap ul.list-unstyled {
-    margin: 30px 30px 0;
-}
-#pricingtable .pricing-plan-wrap li {
-    padding: 10px 0;
-}
-#pricingtable .price-holder sup {
-    font-size: 60%;
-    top: -0.6em;
-	padding-right: 8px;
-}
-#pricingtable.pricing-style2 .price-holder sup {
-    font-size: 60%;
-    top: 0;
-	padding-right: 8px;
-}
-#pricingtable .price-holder sub {
-    bottom: 10px;
-    color: #fff;
-    font-size: 14px;
 }
 
 /*
@@ -1898,7 +1802,7 @@ a.btn-more:hover i {
 }
 .testimonial-content p.blockquote::before {
     color: #ed1858;
-    content: "“";
+    content: "â€œ";
     font-family: 'Times New Roman';
     font-size: 5em;
     left: -15px;
